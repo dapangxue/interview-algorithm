@@ -3,6 +3,6 @@
 ## 数学之美
 ### 数据之魅-数字中的技巧
 [不要被阶乘吓倒](src/interview/beauty/Factorial.java)
-[1的数目](interview.beauty.CountOneInAInteger)
+[1的数目](src/interview/beauty/CountOneInAInteger.java)
 ## 程序员代码面试指南
 
