@@ -124,15 +124,99 @@ public class CheckTreeAContainsTreeB {
         return list.get(0);
     }
 
+    /*
+    思路2实现
+     */
+
+    /**
+     * 序列化二叉树
+     * @param head
+     * @return
+     */
+    public static String serialBinaryTree(TreeNode head) {
+        if (head == null) {
+            return "#!";
+        }
+
+        String result = String.valueOf(head.value) + "!";
+        result += serialBinaryTree(head.left);
+        result += serialBinaryTree(head.right);
+        return result;
+    }
+
+    /**
+     * 采用KMP算法匹配字符串
+     * @param str
+     * @param match
+     * @return
+     */
+    public static int getIndexOf(String str, String match) {
+        if (str == null ||
+                match == null ||
+                str.length() < match.length()) {
+            return -1;
+        }
+
+        char[] strCharArray = str.toCharArray();
+        char[] matchCharArray = match.toCharArray();
+
+        int[] nextArr = getNextArray(matchCharArray);
+        int sIndex = 0;
+        int mIndex = 0;
+        while (sIndex < strCharArray.length && mIndex < matchCharArray.length) {
+            if (strCharArray[sIndex] == matchCharArray[mIndex]) {
+                sIndex++;
+                mIndex++;
+            } else if (nextArr[mIndex] == -1) {
+                sIndex++;
+            } else {
+                mIndex = nextArr[mIndex];
+            }
+        }
+        return mIndex == matchCharArray.length ? sIndex - mIndex : -1;
+    }
+
+    /**
+     * 获取match的next数组
+     * @param matchCharArray
+     * @return
+     */
+    public static int[] getNextArray(char[] matchCharArray) {
+        if (matchCharArray.length == 1) {
+            return new int[] {-1};
+        }
+
+        int[] next = new int[matchCharArray.length];
+        next[0] = -1;
+        next[1] = 0;
+        int position = 2;
+        int count = 0;
+        while (position < next.length) {
+            if (matchCharArray[position - 1] == matchCharArray[count]) {
+                next[position++] = ++count;
+            } else if (count > 0) {
+                count = next[count];
+            } else {
+                next[position++] = 0;
+            }
+        }
+        return next;
+    }
+
+    public static boolean checkTree(TreeNode a, TreeNode b) {
+        String str = serialBinaryTree(a);
+        String match = serialBinaryTree(b);
+
+        return getIndexOf(str, match) != -1 ? true : false;
+    }
+
     public static void main(String[] args) {
         int[] tree1 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        int[] tree2 = {2, 4, 5};
+        int[] tree2 = {2, 4, 5, 8, 9};
 
         TreeNode head1 = createBinaryTree(tree1);
         TreeNode head2 = createBinaryTree(tree2);
-
-        System.out.println(treeAPerfectContainsTreeB(head1, head2));
-        System.out.println(contains(head1, head2));
+        System.out.println(checkTree(head1, head2));
     }
 
 }
