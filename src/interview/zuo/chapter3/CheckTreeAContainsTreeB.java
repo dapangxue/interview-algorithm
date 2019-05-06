@@ -61,6 +61,9 @@ public class CheckTreeAContainsTreeB {
     1、对于t1的每个子树，判断它的子树是否和t2的结构完全相同，这个过程是O(M)的时间复杂度
     2、t1的每个结点是O(N)的时间复杂度
     3、总的时间复杂度是O(M * N)
+    思路2：
+    1、将t1、t2树进行序列化为字符串
+    2、通过KMP算法判断t2是否是t1字符串的一个子串
      */
 
     /**
@@ -75,6 +78,12 @@ public class CheckTreeAContainsTreeB {
                 check(a.right, b);
     }
 
+    /**
+     * 检查树a是否有与树b拓扑结构完全相同的子树
+     * @param a
+     * @param b
+     * @return
+     */
     public static boolean check(TreeNode a, TreeNode b) {
         if (a == null && b == null) {
             return true;
