@@ -100,6 +100,7 @@ public class CheckBinarySearchTreeAndCompleteBinaryTree {
             if (leaf && (temp.left != null || temp.right != null)) {
                 return false;
             }
+
             if (temp.left != null) {
                 queue.offer(temp.left);
             }
