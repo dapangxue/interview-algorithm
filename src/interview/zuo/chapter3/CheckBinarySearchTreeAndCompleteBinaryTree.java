@@ -1,8 +1,6 @@
 package interview.zuo.chapter3;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * Create by IDEA
@@ -21,6 +19,11 @@ public class CheckBinarySearchTreeAndCompleteBinaryTree {
         }
     }
 
+    /**
+     * 通过中序遍历升序判断是否为二茬搜索树
+     * @param head
+     * @return
+     */
     public static boolean checkIsBinarySearchTree(TreeNode head) {
         if (head != null) {
             int temp = Integer.MIN_VALUE;
@@ -62,9 +65,56 @@ public class CheckBinarySearchTreeAndCompleteBinaryTree {
         return list.get(0);
     }
 
+    /*
+    判断一个树是否是完全二叉树的要点：
+    1、使用层次遍历
+    2、如果一个结点没有左子结点，有右子结点返回false
+    3、如果一个结点没有左右子结点，那么后续的结点也不能有左右子结点，否则返回false
+    4、遍历过程中满足上述条件的都返回false,否则返回true
+     */
+    /**
+     * 判断一个树是否是完全二叉树
+     * @param head
+     * @return
+     */
+    public static boolean isCompleteBinaryTree(TreeNode head) {
+        if (head == null) {
+            return true;
+        }
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(head);
+        // 表示是否已经出现过叶子节点
+        boolean leaf = false;
+        while (!queue.isEmpty()) {
+            TreeNode temp = queue.poll();
+            // 已经有节点是叶子结点，那么后续的结点必须都为叶子结点
+            if (temp.left == null && temp.right == null) {
+                leaf = true;
+            }
+
+            if (temp.right != null && temp.left == null) {
+                return false;
+            }
+
+            if (leaf && (temp.left != null || temp.right != null)) {
+                return false;
+            }
+            if (temp.left != null) {
+                queue.offer(temp.left);
+            }
+
+            if (temp.right != null) {
+                queue.offer(temp.right);
+            }
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         int[] array = {11, 4, 12, 2, 6, 10, 14};
         TreeNode head = createBinaryTreeByArray(array);
         System.out.println(checkIsBinarySearchTree(head));
+        System.out.println(isCompleteBinaryTree(head));
     }
 }
