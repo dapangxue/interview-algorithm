@@ -2,96 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="575c4921-20ea-4437-b3b8-28a94803b1a4" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/interview/zuo/chapter3/CountBinaryTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/zuo/chapter4/CoinsWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/zuo/chapter4/MaxSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicPlanning/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicPlanning/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicPlanning/TheMinimumPathOfTheMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicPlanning/TheMinimumPathOfTheMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExerciseAcmCoder/HelloSogou.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciseAcmCoder/HelloSogou.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExerciseAcmCoder/basic/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciseAcmCoder/basic/ReverseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExerciseAcmCoder/basic/YodelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciseAcmCoder/basic/YodelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/beauty/CountOneInAInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/beauty/CountOneInAInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/beauty/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/beauty/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/zuo/chapter3/BinaryTreeMaxLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/zuo/chapter3/BinaryTreeMaxLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/zuo/chapter3/PrintBinaryTreeEdge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/zuo/chapter3/PrintBinaryTreeEdge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/zuo/chapter4/DungeonsAndDragons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/zuo/chapter4/DungeonsAndDragons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/zuo/chapter8/MaxLength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/zuo/chapter8/MaxLength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/baidu/first/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/baidu/first/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/netease/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/netease/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/netease/Choir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/netease/Choir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/netease/ColoredBrick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/netease/ColoredBrick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/netease/CrazyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/netease/CrazyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/netease/EqualDifferenceSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/netease/EqualDifferenceSeries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/netease/IndependentXiaoyi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/netease/IndependentXiaoyi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/netease/Interlace01string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/netease/Interlace01string.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/netease/MinimumMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/netease/MinimumMultiple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/netease/PileofChessPieces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/netease/PileofChessPieces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/netease/SequenceOfOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/netease/SequenceOfOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/netease/UnderTheKitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/netease/UnderTheKitchen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/netease/XiaoYiFavoriteSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/netease/XiaoYiFavoriteSeries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Add.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Clone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Clone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Convert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/DeleteDuplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/DeleteDuplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Duplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Duplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/EntryNodeOfLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/EntryNodeOfLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindContinuousSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindContinuousSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindFirstCommonNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindFirstCommonNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindGreatestSumOfSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindGreatestSumOfSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindNumbersWithSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindNumbersWithSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindNumsAppearOnce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindNumsAppearOnce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FirstAppearingOnce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FirstAppearingOnce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FirstNotRepeatingChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FirstNotRepeatingChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/GetLeastNumbersSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/GetLeastNumbersSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/GetMedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/GetMedian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/GetNext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/GetNext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/GetNumberOfK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/GetNumberOfK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/GetUglyNumberSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/GetUglyNumberSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/InversePairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/InversePairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/IsBalancedSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/IsBalancedSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/IsContinuous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/IsContinuous.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/IsNumeric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/IsNumeric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/IsPopOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/IsPopOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/IsSymmetrical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/IsSymmetrical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/KthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/KthNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/LastRemainingSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/LastRemainingSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/LeftRotateString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/LeftRotateString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Match.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/MaxInWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/MaxInWindows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/MinNumberInRotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/MinNumberInRotateArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/MoreThanHalfNumSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/MoreThanHalfNumSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/MovingCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/MovingCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Multiply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/NumberOf1Between1AndNSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/NumberOf1Between1AndNSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Print.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Print1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/Print1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/PrintFromTopToBottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/PrintFromTopToBottom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/PrintListFromTailToHead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/PrintListFromTailToHead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/PrintMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/PrintMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/PrintMinNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/PrintMinNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/ReConstructBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/ReConstructBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/ReplaceSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/ReplaceSpace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/ReverseSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/ReverseSentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/SerializeDeserialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/SerializeDeserialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/StrToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/StrToInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/SumSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/SumSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/VerifySquenceOfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/VerifySquenceOfBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/hasPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newcoder/swordrefertooffer/hasPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/zuo/chapter4/MinCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/zuo/chapter4/MinCoins.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -155,28 +69,31 @@
     <session id="-1557216766">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2316" />
+          <entry key="java" value="8192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2316" />
+          <entry key="JAVA" value="8192" />
         </counts>
       </usages-collector>
     </session>
@@ -187,51 +104,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter3/BinaryTreeMaxLength.java">
+        <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter4/MinPathSum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="553">
-              <caret line="122" column="40" selection-start-line="122" selection-start-column="40" selection-end-line="122" selection-end-column="40" />
-              <folding>
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-              </folding>
+              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter3/CountBinaryTreeNode.java">
+        <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter4/MaxSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="142" column="40" selection-start-line="142" selection-start-column="40" selection-end-line="142" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter3/PrintBinaryTreeEdge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2352">
-              <caret line="112" column="28" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#418#419#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter4/DungeonsAndDragons.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="20">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -264,14 +149,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/interview/zuo/chapter3/PrintBinaryTreeEdge.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/interview/zuo/chapter3/CreateBalanceSearchTree.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/interview/zuo/chapter3/CheckTreeAContainsTreeB.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/newcoder/swordrefertooffer/IsBalancedSolution.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindNumsAppearOnce.java" />
-        <option value="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindContinuousSequence.java" />
         <option value="$PROJECT_DIR$/src/newcoder/swordrefertooffer/FindNumbersWithSum.java" />
         <option value="$PROJECT_DIR$/src/newcoder/swordrefertooffer/LeftRotateString.java" />
         <option value="$PROJECT_DIR$/src/newcoder/swordrefertooffer/ReverseSentence.java" />
@@ -319,6 +202,10 @@
         <option value="$PROJECT_DIR$/src/interview/zuo/chapter3/PrintBinaryTreeEdge.java" />
         <option value="$PROJECT_DIR$/src/interview/zuo/chapter4/DungeonsAndDragons.java" />
         <option value="$PROJECT_DIR$/src/interview/zuo/chapter3/CountBinaryTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/interview/zuo/chapter4/MinCoins.java" />
+        <option value="$PROJECT_DIR$/src/interview/zuo/chapter3/ZigZagPrintBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/interview/zuo/chapter4/CoinsWays.java" />
+        <option value="$PROJECT_DIR$/src/interview/zuo/chapter4/MaxSubArray.java" />
       </list>
     </option>
   </component>
@@ -329,10 +216,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
-    <option name="y" value="-11" />
-    <option name="width" value="1303" />
-    <option name="height" value="780" />
+    <option name="x" value="283" />
+    <option name="y" value="33" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -340,9 +227,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -354,6 +240,18 @@
               <item name="interview-algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview-algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicPlanning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ExerciseAcmCoder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interview-algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -396,18 +294,48 @@
               <item name="interview-algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview-algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="zuo" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="newcoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="newcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="baidu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="newcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="netease" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interview-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="newcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="swordrefertooffer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556972702044" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557833968308" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -425,13 +353,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountBinaryTreeNode">
-    <configuration name="BinaryTreeMaxLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.zuo.chapter3.BinaryTreeMaxLength" />
+  <component name="RunManager" selected="Application.CoinsWays">
+    <configuration name="CoinsWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.zuo.chapter4.CoinsWays" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.zuo.chapter3.*" />
+          <option name="PATTERN" value="interview.zuo.chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -465,12 +393,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.zuo.chapter8.MaxLength" />
+    <configuration name="MinCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.zuo.chapter4.MinCoins" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.zuo.chapter8.*" />
+          <option name="PATTERN" value="interview.zuo.chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -492,19 +420,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaxLength" />
-      <item itemvalue="Application.BinaryTreeMaxLength" />
       <item itemvalue="Application.PrintBinaryTreeEdge" />
       <item itemvalue="Application.DungeonsAndDragons" />
       <item itemvalue="Application.CountBinaryTreeNode" />
+      <item itemvalue="Application.MinCoins" />
+      <item itemvalue="Application.CoinsWays" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoinsWays" />
+        <item itemvalue="Application.MinCoins" />
         <item itemvalue="Application.CountBinaryTreeNode" />
         <item itemvalue="Application.DungeonsAndDragons" />
         <item itemvalue="Application.PrintBinaryTreeEdge" />
-        <item itemvalue="Application.BinaryTreeMaxLength" />
-        <item itemvalue="Application.MaxLength" />
       </list>
     </recent_temporary>
   </component>
@@ -565,6 +493,8 @@
       <workItem from="1556784349231" duration="10880000" />
       <workItem from="1556863992570" duration="3214000" />
       <workItem from="1556969081129" duration="3577000" />
+      <workItem from="1557580323701" duration="2493000" />
+      <workItem from="1557627014330" duration="17113000" />
     </task>
     <task id="LOCAL-00001" summary="update 常见算法">
       <created>1556240972891</created>
@@ -647,7 +577,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257581000" />
+    <option name="totallyTimeSpent" value="283642000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -659,10 +589,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19252187" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.5274463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -670,18 +599,19 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960223" weight="0.26041666" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960223" weight="0.5104167" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960223" weight="0.25925925" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960223" weight="0.5092593" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298611" />
       <window_info anchor="bottom" id="Tail" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4967707" weight="0.3298611" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49784714" weight="0.8252315" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49784714" weight="0.8240741" />
       <window_info anchor="bottom" id="Favorites" order="11" sideWeight="0.50215286" side_tool="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50322926" side_tool="true" weight="0.3298611" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32973805" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3287037" />
+      <window_info anchor="bottom" id="Statistic" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -693,7 +623,7 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19252187" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5274463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -701,18 +631,19 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960223" weight="0.26041666" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960223" weight="0.5104167" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960223" visible="true" weight="0.25925925" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960223" weight="0.5092593" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298611" />
       <window_info anchor="bottom" id="Tail" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4967707" weight="0.3298611" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49784714" weight="0.8252315" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49784714" weight="0.8240741" />
       <window_info anchor="bottom" id="Favorites" order="11" sideWeight="0.50215286" side_tool="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50322926" side_tool="true" weight="0.3298611" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32973805" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3287037" />
+      <window_info anchor="bottom" id="Statistic" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -909,41 +840,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/newcoder/swordrefertooffer/ReverseSentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newcoder/swordrefertooffer/IsContinuous.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newcoder/swordrefertooffer/LastRemainingSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newcoder/swordrefertooffer/SumSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newcoder/swordrefertooffer/Add.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/newcoder/swordrefertooffer/StrToInt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -1221,11 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2352">
           <caret line="112" column="28" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1236,13 +1127,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter3/COunt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter3/COunt.java" />
     <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter3/BinaryTreeMaxLength.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
@@ -1258,11 +1143,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="142" column="40" selection-start-line="142" selection-start-column="40" selection-end-line="142" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter4/MinCoins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="158" column="8" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter3/ZigZagPrintBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="62" column="22" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="62" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter4/MinPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter4/CoinsWays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2940">
+          <caret line="140" column="45" selection-start-line="140" selection-start-column="45" selection-end-line="140" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter4/MaxSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
