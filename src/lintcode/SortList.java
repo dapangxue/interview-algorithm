@@ -96,7 +96,9 @@ public class SortList {
         int[] a = {3, 5, 1, 6, 7};
         int[] b = {3, 7, 1, 2, 1, 3, 9, 10, 0};
         ListNode head = createList(b);
-        head = quickSortList(head);
+        // head = quickSortList(head);
+        // System.out.println(printList(head));
+        head = mergeSortList(head);
         System.out.println(printList(head));
     }
 
@@ -123,5 +125,63 @@ public class SortList {
             head = head.next;
         }
         return list;
+    }
+
+    /*
+    以下为归并排序的做法：
+
+     */
+
+    /**
+     * 获取中间结点
+     * @param head
+     * @return
+     */
+    public static ListNode getMidNode(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while (fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        return slow;
+    }
+
+    public static ListNode mergeSortList(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        ListNode mid = getMidNode(head);
+        ListNode right = mergeSortList(mid.next);
+        mid.next = null;
+        ListNode left = mergeSortList(head);
+
+        return merge(left, right);
+    }
+
+    public static ListNode merge(ListNode left, ListNode right) {
+        ListNode dummy = new ListNode(-1), tail = dummy;
+
+        while (left != null && right != null) {
+            if (left.value < right.value) {
+                tail.next = left;
+                left = left.next;
+            } else if (left.value >= right.value) {
+                tail.next = right;
+                right = right.next;
+            }
+            tail = tail.next;
+        }
+
+        if (left == null) {
+            tail.next = right;
+        } else if (right == null) {
+            tail.next = left;
+        }
+
+        return dummy.next;
     }
 }
