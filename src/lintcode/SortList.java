@@ -20,16 +20,17 @@ public class SortList {
     }
 
     public static ListNode quickSortList(ListNode head) {
+        // write your code here
         if (head == null || head.next == null) {
             return head;
         }
 
+        ListNode mid = getMid(head);
+        System.out.println(mid.value);
         ListNode leftDummy = new ListNode(-1), leftTail = leftDummy;
         ListNode midDummy = new ListNode(-1), midTail = midDummy;
         ListNode rightDummy = new ListNode(-1), rightTail = rightDummy;
 
-        // 获取中间结点
-        ListNode mid = getMid(head);
         while (head != null) {
             if (head.value < mid.value) {
                 leftTail.next = head;
@@ -43,32 +44,27 @@ public class SortList {
             }
             head = head.next;
         }
-
         leftTail.next = null;
         midTail.next = null;
         rightTail.next = null;
 
         leftDummy.next = quickSortList(leftDummy.next);
         rightDummy.next = quickSortList(rightDummy.next);
+        // todo 将三个链表结合
         return combine(leftDummy.next, midDummy.next, rightDummy.next);
     }
 
-    public static ListNode combine(ListNode left, ListNode mid, ListNode right) {
+    public static ListNode combine(ListNode leftHead, ListNode midHead, ListNode rightHead) {
         ListNode dummy = new ListNode(-1), tail = dummy;
-        tail.next = left;
+        tail.next = leftHead;
         tail = getTail(tail);
-        tail.next = mid;
+        tail.next = midHead;
         tail = getTail(tail);
-        tail.next = right;
+        tail.next = rightHead;
         tail = getTail(tail);
         return dummy.next;
     }
 
-    /**
-     * 获取一个链表的尾结点
-     * @param head
-     * @return
-     */
     public static ListNode getTail(ListNode head) {
         while (head != null && head.next != null) {
             head = head.next;
@@ -77,9 +73,7 @@ public class SortList {
     }
 
     /**
-     * 获取链表中间的结点，作为partition
-     * @param head
-     * @return
+     * 查找链表的中间点
      */
     public static ListNode getMid(ListNode head) {
         ListNode slow = head;
@@ -90,16 +84,6 @@ public class SortList {
             fast = fast.next.next;
         }
         return slow;
-    }
-
-    public static void main(String[] args) {
-        int[] a = {3, 5, 1, 6, 7};
-        int[] b = {3, 7, 1, 2, 1, 3, 9, 10, 0};
-        ListNode head = createList(b);
-        // head = quickSortList(head);
-        // System.out.println(printList(head));
-        head = mergeSortList(head);
-        System.out.println(printList(head));
     }
 
     /**
@@ -184,4 +168,99 @@ public class SortList {
 
         return dummy.next;
     }
+
+    /*
+    单链表的选择排序
+    选择排序的思路是：每次都在未排好序的结点中选择最小的，拿到前面排序
+     */
+    public static ListNode selectSortList1(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        /*
+        核心代码思路：
+        head表示未排序的链表的头结点，所以每次都需要从head处开始查找最小的结点
+         */
+        // 排序部分的头部和尾部
+        ListNode dummy = new ListNode(-1), tail = dummy;
+        // 此处不能用head当做当前节点
+        ListNode currentNode = head;
+        while (head != null) {
+            // 认为当前节点是最小的结点
+            ListNode minNode = head;
+            // head表示未排序的链表的头结点，所以每次都需要从head处开始查找最小的结点
+            ListNode tempNode = head;
+            // 查找最小的结点
+            while (tempNode != null) {
+                if (tempNode.value < minNode.value) {
+                    minNode = tempNode;
+                }
+                tempNode = tempNode.next;
+            }
+            // 查找最小节点对应的前驱结点
+            ListNode minNodePreNode = getMinNodePreNode(head, minNode);
+            if (minNodePreNode != null) {
+                minNodePreNode.next = minNode.next;
+            } else {
+                head = head.next;
+            }
+            // currentNode = currentNode.next;
+            tail.next = minNode;
+            tail = tail.next;
+            tail.next = head;
+        }
+        return dummy.next;
+    }
+
+    public static ListNode selectSortList2(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        ListNode p = head;
+        ListNode q = head.next;
+
+        while (head != null) {
+            while (q != null) {
+                if (q.value < head.value) {
+                    int t = head.value;
+                    head.value = q.value;
+                    q.value = t;
+                }
+                q = q.next;
+            }
+            head = head.next;
+            q = head;
+        }
+        return p;
+    }
+
+    /**
+     * 获取最小值结点的前驱结点
+     * @return
+     */
+    public static ListNode getMinNodePreNode(ListNode head, ListNode minNode) {
+        // 1、首先判断头结点和最小结点是否相等，如果相等则没有前驱结点
+        if (head == minNode) {
+            return null;
+        }
+
+        while (head.next != minNode) {
+            head = head.next;
+        }
+        return head;
+    }
+
+    public static void main(String[] args) {
+        int[] a = {1, 3, 2};
+        int[] b = {3, 7, 1, 2, 1, 3, 9, 10, 0};
+        ListNode head = createList(b);
+        System.out.println(printList(head));
+        head = selectSortList2(head);
+        // System.out.println(printList(head));
+        // head = mergeSortList(head);
+        System.out.println(printList(head));
+    }
+
 }
