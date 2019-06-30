@@ -35,7 +35,7 @@ public class SmallestSubsequence {
 
             sb.append(text.charAt(i));
             set.add(text.charAt(i));
-            count[text.charAt(i) - 'a']--;
+            count[text.charAt(i) - 'a'] --;
         }
         return sb.toString();
     }
