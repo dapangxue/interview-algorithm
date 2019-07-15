@@ -48,7 +48,7 @@ public class KMP {
     }
 
     /**
-     * 获取最大匹配数组
+     * 获取匹配字符串的前缀后缀最大匹配数组
      * @param match
      * @return
      */
@@ -61,7 +61,7 @@ public class KMP {
         next[0] = -1;
         next[1] = 0;
         int position = 2;
-        // 前缀字符串和后缀字符串匹配的最大长度
+        // 前一位字符串的前缀字符串和后缀字符串匹配的最大长度
         int cn = 0;
         while (position < next.length) {
             if (match[position - 1] == match[cn]) {
