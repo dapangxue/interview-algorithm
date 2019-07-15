@@ -1,7 +1,6 @@
-package leetcode.chapter10.chapter11;
+package leetcode.chapter11;
 
 import java.util.Arrays;
-import java.util.stream.Stream;
 
 /**
  * Created with IntelliJ IDEA.

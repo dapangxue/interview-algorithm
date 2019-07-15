@@ -23,6 +23,7 @@ public class PosArrayToBST {
     }
 
     /*
+    搜索二叉树的性质：左子树任意的结点小于根节点，右子树的结点大于根节点，根节点的左子树和右子树也符合二叉搜索树
     思路：
     1、如果一个数组是通过二叉搜索树后续遍历得到的数组，那么数组的前一部分的值都小于数组的最后一位元素，
     数组的后一部分的值都大于最后一位元素
@@ -95,6 +96,11 @@ public class PosArrayToBST {
         return root;
     }
 
+    /**
+     * 非递归的后序遍历
+     * @param head
+     * @return
+     */
     public static List<Integer> postTraversal(TreeNode head) {
         List<Integer> list = new ArrayList<>();
 

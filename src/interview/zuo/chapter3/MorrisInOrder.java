@@ -23,7 +23,8 @@ public class MorrisInOrder {
     }
 
     /**
-     * 经典的Morris序遍历二叉树
+     * 经典的Morris序遍历二叉树,Morris遍历是二叉树遍历中性能较高的算法，
+     * 它的遍历虽然时间复杂度为O（n）,但是空间复杂度由于没有引入额外的节点空间，所以空间复杂度O(1)
      * @param head
      */
     public static void morrisOrder(TreeNode head) {
@@ -39,16 +40,20 @@ public class MorrisInOrder {
         <2>如果左子树的最右节点不为空，即指向当前currentNode，那么mostRight.right = null, currentNode = currentNode.right
         (2)如果左节点为空，那么currentNode = currentNode.right
          */
+        // 当前节点
         TreeNode currentNode = head;
+        // 当前节点的最右节点
         TreeNode mostRight = null;
         while (currentNode != null) {
-            // 1、找到当前节点的左节点
             mostRight = currentNode.left;
+
+            // 如果当前节点左节点不为空,那么找到左子树的最右节点
             if (mostRight != null) {
+                // （1）节点的右子节点不为空且右子节点没有指向当前节点
                 while (mostRight.right != null && mostRight.right != currentNode) {
                     mostRight = mostRight.right;
                 }
-                // 如果左子树的最右节点为空
+
                 if (mostRight.right == null) {
                     mostRight.right = currentNode;
                     currentNode = currentNode.left;
@@ -57,7 +62,6 @@ public class MorrisInOrder {
                     mostRight.right = null;
                 }
             }
-
             currentNode = currentNode.right;
         }
     }
@@ -139,6 +143,73 @@ public class MorrisInOrder {
         return list;
     }
 
+    /**
+     * 基于morris的后序遍历
+     * @param head
+     * @return
+     */
+    public static void morrisPosOrder(TreeNode head) {
+        if (head == null) {
+            return;
+        }
+
+        TreeNode currentNode = head;
+        TreeNode mostRight = null;
+        while (currentNode != null) {
+            mostRight = currentNode.left;
+
+            if (mostRight != null) {
+                while (mostRight.right != null && mostRight.right != currentNode) {
+                    mostRight = mostRight.right;
+                }
+
+                if (mostRight.right == null) {
+                    mostRight.right = currentNode;
+                    currentNode = currentNode.left;
+                    continue;
+                } else {
+                    mostRight.right = null;
+                    printEdge(currentNode.left);
+                }
+            }
+
+            currentNode = currentNode.right;
+        }
+        printEdge(head);
+    }
+
+    /**
+     * 倒序打印数的右子节点
+     * @param head
+     */
+    public static void printEdge(TreeNode head) {
+        if (head != null) {
+            TreeNode tail = reverseEdge(head);
+            TreeNode h = tail;
+            while (h != null) {
+                System.out.print(h.value + ", ");
+                h = h.right;
+            }
+
+            reverseEdge(tail);
+        }
+    }
+
+    public static TreeNode reverseEdge(TreeNode head) {
+        TreeNode newHead = null;
+        // TreeNode oldHead = head;
+        TreeNode temp = null;
+        if (head != null) {
+            while (head != null) {
+                temp = head.right;
+                head.right = newHead;
+                newHead = head;
+                head = temp;
+            }
+        }
+        return newHead;
+    }
+    /*
     public static List<Integer> mirrorPreOrder2(TreeNode head) {
         List<Integer> result = new ArrayList<>();
 
@@ -168,7 +239,13 @@ public class MorrisInOrder {
         }
         return result;
     }
+    */
 
+    /**
+     * 非递归二叉树的中序遍历
+     * @param head
+     * @return
+     */
     public static List<Integer> inorder(TreeNode head) {
         List<Integer> result = new ArrayList<>();
         if (head != null) {
@@ -182,6 +259,60 @@ public class MorrisInOrder {
                     result.add(head.value);
                     head = head.right;
                 }
+            }
+        }
+        return result;
+    }
+
+    /**
+     * 非递归先序遍历
+     * @param head
+     * @return
+     */
+    public static List<Integer> preOrder(TreeNode head) {
+        List<Integer> list = new ArrayList<>();
+        if (head != null) {
+            Stack<TreeNode> stack = new Stack<>();
+            stack.push(head);
+            while (!stack.isEmpty()) {
+                head = stack.pop();
+                list.add(head.value);
+                if (head.right != null) {
+                    stack.push(head.right);
+                }
+                if (head.left != null) {
+                    stack.push(head.left);
+                }
+            }
+        }
+        return list;
+    }
+
+    /**
+     * 非递归的后序遍历，时间复杂度为O(n)，空间复杂度为O(h),其中h为树的高度
+     * @param head
+     * @return
+     */
+    public static List<Integer> posOrder(TreeNode head) {
+        List<Integer> result = new ArrayList<>();
+
+        if (head != null) {
+            Stack<TreeNode> stack1 = new Stack<>();
+            Stack<TreeNode> stack2 = new Stack<>();
+            stack1.push(head);
+            while (!stack1.isEmpty()) {
+                head = stack1.pop();
+                stack2.push(head);
+
+                if (head.left != null) {
+                    stack1.push(head.left);
+                }
+                if (head.right != null) {
+                    stack1.push(head.right);
+                }
+            }
+            while (!stack2.isEmpty()) {
+                result.add(stack2.pop().value);
             }
         }
         return result;
@@ -208,8 +339,8 @@ public class MorrisInOrder {
     public static void main(String[] args) {
         int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
         TreeNode head = createBinaryTree(a);
-        List<Integer> result = morrisInOrder(head);
-        System.out.println(result);
-        System.out.println(mirrorPreOrder2(head));
+        System.out.println(preOrder(head));
+        System.out.println(posOrder(head));
+        morrisPosOrder(head);
     }
 }

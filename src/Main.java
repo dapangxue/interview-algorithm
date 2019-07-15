@@ -1,11 +1,14 @@
+import java.io.File;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.locks.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        double[] a = {0.1, 0.3};
-        double[] b = {0.1, 0.3};
-        System.out.println(a == b);
+
     }
 
 }
