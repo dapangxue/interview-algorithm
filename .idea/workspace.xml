@@ -4,10 +4,6 @@
     <list default="true" id="1fb8d4d6-ac2d-413c-b1ac-57d8053241e8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/zuo/chapter3/MorrisInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/zuo/chapter3/MorrisInOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interview/zuo/chapter3/PosArrayToBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/zuo/chapter3/PosArrayToBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/chapter11/SampleStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/chapter11/SampleStats.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +74,19 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,13 +154,13 @@
         <option value="$PROJECT_DIR$/src/leetcode/chapter10/chapter11/SampleStats.java" />
         <option value="$PROJECT_DIR$/src/leetcode/chapter12/DistributeCandies.java" />
         <option value="$PROJECT_DIR$/src/leetcode/chapter12/PathInZigZagTree.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/interview/zuo/other/BFPRT.java" />
         <option value="$PROJECT_DIR$/src/interview/zuo/chapter3/MorrisInOrder.java" />
         <option value="$PROJECT_DIR$/src/interview/zuo/other/SlideWindow.java" />
         <option value="$PROJECT_DIR$/src/interview/zuo/other/Manacher.java" />
         <option value="$PROJECT_DIR$/src/lintcode/SortList.java" />
         <option value="$PROJECT_DIR$/src/interview/zuo/chapter9/KMP.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -382,12 +390,12 @@
       <workItem from="1562683555760" duration="2248000" />
       <workItem from="1562807933615" duration="6379000" />
       <workItem from="1562894134532" duration="6130000" />
-      <workItem from="1563153705459" duration="8404000" />
+      <workItem from="1563153705459" duration="9298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211447000" />
+    <option name="totallyTimeSpent" value="212341000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,7 +410,7 @@
     <frame x="-7" y="1" width="1548" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28032345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28032345" />
       <window_info id="Structure" order="1" weight="0.2537012" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -416,7 +424,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32896653" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.64306784" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.64306784" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32944608" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32890856" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32892805" />
@@ -998,16 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -1103,10 +1101,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
