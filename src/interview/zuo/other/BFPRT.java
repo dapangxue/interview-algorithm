@@ -14,8 +14,6 @@ public class BFPRT {
 
     public static void main(String[] args) {
         int[] a = {1, 2, 4, 6, 0, 9, 2, 3};
-        // System.out.println(getMedianOfMedians(a, 0, a.length - 1));
-        // System.out.println(Arrays.toString(partition(a, 0, a.length - 1, 2)));
         System.out.println(bfprt(a, 4, 0, a.length - 1));
     }
 
