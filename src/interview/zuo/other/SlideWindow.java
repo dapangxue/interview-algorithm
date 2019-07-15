@@ -47,6 +47,49 @@ public class SlideWindow {
         return maxWindowValue;
     }
 
+    /**
+     * 返回a的子数组中满足最大值减去最小值小于num的子数组的个数（没理解）
+     * @param a
+     * @param num
+     * @return
+     */
+    public static int findLessThanNumCount(int[] a, int num) {
+        Deque<Integer> qmin = new LinkedList<>();
+        Deque<Integer> qmax = new LinkedList<>();
+
+        int start = 0;
+        int end = 0;
+        int count = 0;
+        while (start < a.length) {
+            while (end < a.length) {
+                while (!qmin.isEmpty() && a[qmin.peekLast()] >= a[end]) {
+                    qmin.pollLast();
+                }
+                qmin.offerLast(end);
+                while (!qmax.isEmpty() && a[qmax.peekLast()] <= a[end]) {
+                    qmax.pollLast();
+                }
+                qmax.offerLast(end);
+
+                while (a[qmax.peekFirst()] - a[qmin.peekFirst()] <= num) {
+                    break;
+                }
+                end++;
+            }
+
+            if (qmin.peekFirst() == start) {
+                qmin.pollFirst();
+            }
+
+            if (qmax.peekFirst() == start) {
+                qmax.pollFirst();
+            }
+            count += end - start;
+            start++;
+        }
+        return count;
+    }
+
     public static void main(String[] args) {
         int[] a = {3, 2, 4, 5, 1, 7, 12, 9};
         System.out.println(Arrays.toString(slideWindow(a, 5)));
