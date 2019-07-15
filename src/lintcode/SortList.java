@@ -25,12 +25,14 @@ public class SortList {
             return head;
         }
 
+        // 获取partition,不一定获取中间节点，头结点也可以
         ListNode mid = getMid(head);
         System.out.println(mid.value);
         ListNode leftDummy = new ListNode(-1), leftTail = leftDummy;
         ListNode midDummy = new ListNode(-1), midTail = midDummy;
         ListNode rightDummy = new ListNode(-1), rightTail = rightDummy;
 
+        // 遍历链表，构造三个新链表
         while (head != null) {
             if (head.value < mid.value) {
                 leftTail.next = head;
@@ -54,6 +56,13 @@ public class SortList {
         return combine(leftDummy.next, midDummy.next, rightDummy.next);
     }
 
+    /**
+     * 将传递进来的三个链表结合
+     * @param leftHead
+     * @param midHead
+     * @param rightHead
+     * @return
+     */
     public static ListNode combine(ListNode leftHead, ListNode midHead, ListNode rightHead) {
         ListNode dummy = new ListNode(-1), tail = dummy;
         tail.next = leftHead;
@@ -65,6 +74,11 @@ public class SortList {
         return dummy.next;
     }
 
+    /**
+     * 获取链表的尾节点
+     * @param head
+     * @return
+     */
     public static ListNode getTail(ListNode head) {
         while (head != null && head.next != null) {
             head = head.next;
@@ -73,7 +87,7 @@ public class SortList {
     }
 
     /**
-     * 查找链表的中间点
+     * 查找链表的中间点,相当于快排数组排序的partition的获取
      */
     public static ListNode getMid(ListNode head) {
         ListNode slow = head;
@@ -172,6 +186,7 @@ public class SortList {
     /*
     单链表的选择排序
     选择排序的思路是：每次都在未排好序的结点中选择最小的，拿到前面排序
+    version1
      */
     public static ListNode selectSortList1(ListNode head) {
         if (head == null || head.next == null) {
@@ -184,11 +199,10 @@ public class SortList {
          */
         // 排序部分的头部和尾部
         ListNode dummy = new ListNode(-1), tail = dummy;
-        // 此处不能用head当做当前节点
-        ListNode currentNode = head;
+
         while (head != null) {
-            // 认为当前节点是最小的结点
-            ListNode minNode = head;
+            // 以head节点为首的链表的最小节点
+            ListNode minNode = null;
             // head表示未排序的链表的头结点，所以每次都需要从head处开始查找最小的结点
             ListNode tempNode = head;
             // 查找最小的结点
@@ -213,6 +227,11 @@ public class SortList {
         return dummy.next;
     }
 
+    /**
+     * 选择排序version2
+     * @param head
+     * @return
+     */
     public static ListNode selectSortList2(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -221,7 +240,10 @@ public class SortList {
         ListNode p = head;
         ListNode q = head.next;
 
+        // 由于链表长度不定，所以只能采用while循环的方式
         while (head != null) {
+            q = head.next;
+            // 第二层循环用于不断寻找小于head的节点，然后交换两个节点的值
             while (q != null) {
                 if (q.value < head.value) {
                     int t = head.value;
@@ -231,7 +253,6 @@ public class SortList {
                 q = q.next;
             }
             head = head.next;
-            q = head;
         }
         return p;
     }
