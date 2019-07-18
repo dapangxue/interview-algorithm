@@ -1,3 +1,4 @@
+package InterviewsofAdvance.bytedance;
 /**
  * Created with IntelliJ IDEA.
  * 字节跳动面试算法题目
