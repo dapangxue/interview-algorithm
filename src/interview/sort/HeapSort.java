@@ -14,7 +14,7 @@ public class HeapSort {
 
     /*
     堆排序的流程：
-    1、首先构建堆
+    1、首先构建堆,这一步可以将数组看成堆，也就是说只要给出数组，表示已经建立完堆
     2、建立最小堆，不断地将最小堆的根节点和数组待排序的最后一个节点替换
     3、整理替换后的节点
      */
@@ -24,6 +24,7 @@ public class HeapSort {
             return;
         }
 
+        // 建立一个小根堆
         buildArrayToHeap(array);
         for (int i = array.length - 1; i >= 0; i--) {
             swap(array, 0, i);
