@@ -6,19 +6,18 @@ package java_thread.stack_1;
  * @author WuXue
  * @date 2019/7/29 0029
  */
-public class ThreadC extends Thread {
+public class ThreadP extends Thread {
+    private Produce produce;
 
-    private Consume consume;
-
-    public ThreadC(Consume consume) {
-        this.consume = consume;
+    public ThreadP(Produce produce) {
+        this.produce = produce;
     }
 
     @Override
     public void run() {
         super.run();
         while (true) {
-            consume.popService();
+            produce.pushService();
         }
     }
 }

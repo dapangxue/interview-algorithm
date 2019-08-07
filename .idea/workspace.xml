@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb8d4d6-ac2d-413c-b1ac-57d8053241e8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordRefertoOffer/GetNext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordRefertoOffer/GetNext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordRefertoOffer/IsSymmetrical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordRefertoOffer/IsSymmetrical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/sort/HeapSortMaxAndMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/sort/HeapSortMaxAndMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/zuo/chapter3/ZigZagPrintBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/zuo/chapter3/ZigZagPrintBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interview/zuo/chapter4/MinCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interview/zuo/chapter4/MinCoins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_thread/stack_1/ThreadC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_thread/stack_1/ThreadC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/chapter2/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/chapter2/Candy.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,206 +21,38 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interview/zuo/other/SlideWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interview/zuo/other/Manacher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="64" selection-end-column="8" />
-              <folding>
-                <element signature="e#1763#1764#0" expanded="true" />
-                <element signature="e#1823#1824#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interview/zuo/other/AnnulusPair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="29" column="45" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter9/KMP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Singleton" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>put</find>
-      <find>HashMap</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/SwordRefertoOffer/Print.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/interview/zuo/chapter3/MorrisInOrder.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/chapter1/MaximalRectangle.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/interview/zuo/chapter9/KMP.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/lintcode/SortList.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/SwordRefertoOffer/PrintFromTopToBottom.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/interview/sort/HeapSortMaxAndMin.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/SwordRefertoOffer/IsSymmetrical.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/chapter1/MaximalRectangle.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/chapter9/VerticalTraversal.java" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/interview/zuo/chapter5/MaxUnique.java" />
-        <option value="$PROJECT_DIR$/src/interview/zuo/chapter5/PointNewChar.java" />
-        <option value="$PROJECT_DIR$/src/newcoder/Tux.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/FindSubstring.java" />
-        <option value="$PROJECT_DIR$/src/interview/zuo/chapter3/PosArrayToBST.java" />
-        <option value="$PROJECT_DIR$/src/interview/zuo/chapter3/MaxDistance.java" />
-        <option value="$PROJECT_DIR$/src/other/TraversalFolder.java" />
-        <option value="$PROJECT_DIR$/src/other/TraversalDirectory.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter10/GcdOfStrings.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter10/MaxEqualRowsAfterFlips.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter10/AddNegabinary.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter10/BaseNeg2.java" />
-        <option value="$PROJECT_DIR$/src/newcoder/netease/BasketballTeam.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter9/VerticalTraversal.java" />
-        <option value="$PROJECT_DIR$/src/other/GiftPurchasing.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter1/LargestRectangleArea.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter1/MaximalRectangle.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter9/PancakeSort.java" />
-        <option value="$PROJECT_DIR$/src/interview/zuo/other/AnnulusPair.java" />
-        <option value="$PROJECT_DIR$/src/other/BinaryTreeLevelTraversal.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter1/Trap.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter10/FindOcurrences.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter10/SufficientSubset.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter10/NumTilePossibilities.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter10/SmallestSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter2/MaxPathSum.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter3/ReverseList.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter2/TitleToNumber.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter2/CalculateMinimumHP.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter2/Rotate.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter2/Rob.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter10/chapter11/CarPooling.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter10/chapter11/SampleStats.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter12/DistributeCandies.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/chapter12/PathInZigZagTree.java" />
-        <option value="$PROJECT_DIR$/src/interview/zuo/other/BFPRT.java" />
-        <option value="$PROJECT_DIR$/src/interview/zuo/chapter3/MorrisInOrder.java" />
-        <option value="$PROJECT_DIR$/src/interview/zuo/other/SlideWindow.java" />
-        <option value="$PROJECT_DIR$/src/interview/zuo/other/Manacher.java" />
-        <option value="$PROJECT_DIR$/src/lintcode/SortList.java" />
-        <option value="$PROJECT_DIR$/src/interview/zuo/chapter9/KMP.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="1" />
-    <option name="width" value="1935" />
-    <option name="height" value="1038" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="interview-algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview-algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview-algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview-algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview-algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview-algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview-algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview-algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="zuo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1P2b0qfZPWXacWp2SEidHZtFZBl" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Spring-Boot-Shiro" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IDEA/demo" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="database.sql.templating" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,20 +66,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortList">
+  <component name="RunManager" selected="Application.BaseSemaphore">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BFPRT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.zuo.other.BFPRT" />
+    <configuration name="BaseSemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_thread.waitnotify.BaseSemaphore" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.zuo.other.*" />
+          <option name="PATTERN" value="java_thread.waitnotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,13 +87,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Manacher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.zuo.other.Manacher" />
+    <configuration name="BlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_thread.waitnotify.BlockingQueue" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.zuo.other.*" />
+          <option name="PATTERN" value="java_thread.waitnotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,13 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathInZigZagTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.chapter12.PathInZigZagTree" />
+    <configuration name="BlockingQueue2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_thread.waitnotify.BlockingQueue2" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.chapter12.*" />
+          <option name="PATTERN" value="java_thread.waitnotify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,13 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SlideWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.zuo.other.SlideWindow" />
+    <configuration name="GetLIL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.zuo.chapter8.GetLIL" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.zuo.other.*" />
+          <option name="PATTERN" value="interview.zuo.chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,13 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lintcode.SortList" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_thread.single_product_single_consume.Test" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lintcode.*" />
+          <option name="PATTERN" value="java_thread.single_product_single_consume.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,19 +175,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PathInZigZagTree" />
-      <item itemvalue="Application.BFPRT" />
-      <item itemvalue="Application.SlideWindow" />
-      <item itemvalue="Application.Manacher" />
-      <item itemvalue="Application.SortList" />
+      <item itemvalue="Application.GetLIL" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.BlockingQueue" />
+      <item itemvalue="Application.BlockingQueue2" />
+      <item itemvalue="Application.BaseSemaphore" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortList" />
-        <item itemvalue="Application.Manacher" />
-        <item itemvalue="Application.SlideWindow" />
-        <item itemvalue="Application.BFPRT" />
-        <item itemvalue="Application.PathInZigZagTree" />
+        <item itemvalue="Application.BaseSemaphore" />
+        <item itemvalue="Application.BlockingQueue2" />
+        <item itemvalue="Application.BlockingQueue" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.GetLIL" />
       </list>
     </recent_temporary>
   </component>
@@ -390,12 +228,34 @@
       <workItem from="1562683555760" duration="2248000" />
       <workItem from="1562807933615" duration="6379000" />
       <workItem from="1562894134532" duration="6130000" />
-      <workItem from="1563153705459" duration="9298000" />
+      <workItem from="1563153705459" duration="10803000" />
+      <workItem from="1563191458089" duration="7831000" />
+      <workItem from="1563332999307" duration="2876000" />
+      <workItem from="1563348352908" duration="8377000" />
+      <workItem from="1563412318524" duration="12273000" />
+      <workItem from="1563525725540" duration="599000" />
+      <workItem from="1563587872809" duration="7871000" />
+      <workItem from="1563596466901" duration="1911000" />
+      <workItem from="1563671755769" duration="6129000" />
+      <workItem from="1563758595457" duration="29885000" />
+      <workItem from="1563947018313" duration="9644000" />
+      <workItem from="1563966681123" duration="2167000" />
+      <workItem from="1563976095251" duration="16000" />
+      <workItem from="1563978406557" duration="601000" />
+      <workItem from="1564026098827" duration="13196000" />
+      <workItem from="1564211838261" duration="3754000" />
+      <workItem from="1564286601403" duration="6381000" />
+      <workItem from="1564296895631" duration="8262000" />
+      <workItem from="1564311987728" duration="593000" />
+      <workItem from="1564363741155" duration="28006000" />
+      <workItem from="1564484085608" duration="6763000" />
+      <workItem from="1564535925280" duration="16699000" />
+      <workItem from="1564623076250" duration="9026000" />
+      <workItem from="1564657884968" duration="4398000" />
+      <workItem from="1564708596073" duration="2167000" />
+      <workItem from="1565074920073" duration="21835000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212341000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -406,76 +266,19 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="1" width="1548" height="830" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28032345" />
-      <window_info id="Structure" order="1" weight="0.2537012" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5117994" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3959243" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32896653" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.64306784" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32944608" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32890856" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32892805" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28032345" />
-      <window_info id="Structure" order="1" weight="0.2537012" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51248163" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3959243" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32896653" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.9397944" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32944608" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32892805" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32892805" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -483,640 +286,249 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/FindSubstring.java</url>
           <line>39</line>
-          <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/FindSubstring.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/lintcode/SortList.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/lintcode/SortList.java</url>
           <line>28</line>
-          <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter10/GcdOfStrings.java</url>
           <line>40</line>
-          <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter10/GcdOfStrings.java</url>
           <line>42</line>
-          <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter10/MaxEqualRowsAfterFlips.java</url>
           <line>49</line>
-          <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter10/AddNegabinary.java</url>
           <line>43</line>
-          <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter10/AddNegabinary.java</url>
           <line>44</line>
-          <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter10/AddNegabinary.java</url>
           <line>45</line>
-          <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/newcoder/netease/BasketballTeam.java</url>
           <line>47</line>
-          <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/newcoder/netease/BasketballTeam.java</url>
           <line>49</line>
-          <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/newcoder/netease/BasketballTeam.java</url>
           <line>50</line>
-          <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/newcoder/netease/BasketballTeam.java</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter2/MaxPathSum.java</url>
           <line>45</line>
-          <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter2/MaxPathSum.java</url>
           <line>32</line>
-          <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter2/MaxPathSum.java</url>
           <line>48</line>
-          <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter2/Rob.java</url>
           <line>55</line>
-          <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter2/Rob.java</url>
           <line>56</line>
-          <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter2/Rob.java</url>
           <line>27</line>
-          <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter2/Rob.java</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter2/Rob.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter2/Rotate.java</url>
           <line>22</line>
-          <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter11/SampleStats.java</url>
           <line>52</line>
-          <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter11/SampleStats.java</url>
           <line>65</line>
-          <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/chapter12/DistributeCandies.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/interview/zuo/other/BFPRT.java</url>
           <line>75</line>
-          <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/interview/zuo/other/SlideWindow.java</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/interview/zuo/other/SlideWindow.java</url>
           <line>38</line>
-          <properties />
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MatchArray.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SwordRefertoOffer/MovingCount.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/SwordRefertoOffer/HasPath.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/InterviewsofAdvance/bytedance/SortArrayToBinarySearchTree.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/contest/AlphabetBoardPath.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3824">
-          <caret line="212" lean-forward="true" selection-start-line="212" selection-end-line="212" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter10.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter10/GcdOfStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter10/MaxEqualRowsAfterFlips.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="475" column="16" selection-start-line="475" selection-start-column="16" selection-end-line="475" selection-end-column="16" />
-          <folding>
-            <element signature="e#10570#10571#0" expanded="true" />
-            <element signature="e#10602#10603#0" expanded="true" />
-            <element signature="e#11079#11080#0" expanded="true" />
-            <element signature="e#11117#11118#0" expanded="true" />
-            <element signature="e#13713#13714#0" expanded="true" />
-            <element signature="e#13768#13769#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter10/AddNegabinary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1911">
-          <caret line="99" column="31" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter10/BaseNeg2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/stream/IntStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="670" column="20" selection-start-line="670" selection-start-column="20" selection-end-line="670" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newcoder/netease/EqualDifferenceSeries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newcoder/netease/ColoredBrick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newcoder/netease/BasketballTeam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter9/VerticalTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/TraversalDirectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/GiftPurchasing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter9/PancakeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="317" selection-start-line="317" selection-end-line="317" />
-          <folding>
-            <element signature="e#11833#11834#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/BinaryTreeLevelTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter1/LargestRectangleArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter1/MaximalRectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter1/Trap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="111" column="55" lean-forward="true" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter10/FindOcurrences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="15" selection-start-line="15" selection-end-line="22" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter10/NumTilePossibilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1732#1733#0" expanded="true" />
-            <element signature="e#1768#1769#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter10/SufficientSubset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter10/SmallestSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="55" lean-forward="true" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter2/MaxPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
-          <folding>
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2604">
-          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-          <folding>
-            <element signature="e#5748#5749#0" expanded="true" />
-            <element signature="e#5784#5785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="110" column="35" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter3/ReverseList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="28" selection-start-line="28" selection-end-line="39" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter2/TitleToNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter2/CalculateMinimumHP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="18" selection-start-line="18" selection-end-line="41" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter2/Rotate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter11/CarPooling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter11/SampleStats.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2159">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter2/Rob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="138" column="50" selection-start-line="138" selection-start-column="50" selection-end-line="138" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter12/DistributeCandies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/chapter12/PathInZigZagTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5187">
-          <caret line="291" column="25" selection-start-line="291" selection-start-column="25" selection-end-line="291" selection-end-column="25" />
-          <folding>
-            <element signature="e#11119#11120#0" expanded="true" />
-            <element signature="e#11200#11201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="188" column="23" lean-forward="true" selection-start-line="188" selection-start-column="23" selection-end-line="188" selection-end-column="23" />
-          <folding>
-            <element signature="e#12846#12847#0" expanded="true" />
-            <element signature="e#12924#12925#0" expanded="true" />
-            <element signature="e#24329#24330#0" expanded="true" />
-            <element signature="e#24394#24395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="3207" column="28" selection-start-line="3207" selection-start-column="28" selection-end-line="3207" selection-end-column="28" />
-          <folding>
-            <element signature="e#177013#177014#0" expanded="true" />
-            <element signature="e#177054#177055#0" expanded="true" />
-            <element signature="e#224394#224395#0" expanded="true" />
-            <element signature="e#224447#224448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interview/zuo/other/BFPRT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter3/MorrisInOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interview/zuo/other/SlideWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interview/zuo/other/Manacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="64" selection-end-column="8" />
-          <folding>
-            <element signature="e#1763#1764#0" expanded="true" />
-            <element signature="e#1823#1824#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interview/zuo/other/AnnulusPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lintcode/SortList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/interview/zuo/chapter9/KMP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>algorithm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

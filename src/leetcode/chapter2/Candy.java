@@ -54,7 +54,7 @@ public class Candy {
         Arrays.fill(leftToRight, 1);
         Arrays.fill(rightToLeft, 1);
 
-        int[] result = new int[ratings.length]
+        int[] result = new int[ratings.length];
 
         for (int i = 1, length = ratings.length; i < length; i++) {
             if (ratings[i] > ratings[i - 1]) {
@@ -74,7 +74,7 @@ public class Candy {
     }
 
     /**
-     * version4
+     * version4 (时间复杂度O（N），空间复杂度O（1）)的算法，暂时没想明白
      * @param ratings
      * @return
      */
@@ -98,6 +98,7 @@ public class Candy {
                 down++;
             }
         }
+        return 0;
     }
 
     public int count(int n) {

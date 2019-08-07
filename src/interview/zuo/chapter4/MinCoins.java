@@ -17,26 +17,27 @@ public class MinCoins {
      */
     public static int minCoin(int[] coins, int k) {
         /*
-        dp[i][j]表示使用钱币i构成j的最小值
+        dp[i][j]表示使用钱币i构成j的最小的货币数
         如果j = 0,表示使用钱币i构成0的最小方法数,也不需要钱币，所以dp[i][0] = 0;
          */
         // 定义动态规划数组，此处定义k + 1而不是k的原因是因为有钱币数等于0的情况
         int[][] dp = new int[coins.length][k + 1];
-        // Arrays.sort(coins);
-        for (int j = 1; j < k + 1; j++) {
+
+        // 用coins[0]先处理构成的k
+        for (int j = 1; j <= k; j++) {
             dp[0][j] = Integer.MAX_VALUE;
             if (coins[0] <= j && dp[0][j - coins[0]] != Integer.MAX_VALUE) {
                 dp[0][j] = dp[0][j - coins[0]] + 1;
             }
         }
 
-        for (int j = 1; j < k + 1; j++) {
-            for (int i = 1; i < coins.length; i++) {
+        for (int i = 1; i < dp.length; i++) {
+            for (int j = 1; j < dp[0].length; j++) {
                 int left = Integer.MAX_VALUE;
                 if (coins[i] <= j && dp[i][j - coins[i]] != Integer.MAX_VALUE) {
                     left = dp[i][j - coins[i]] + 1;
                 }
-                dp[i][j] = Math.min(dp[i - 1][j], left);
+                dp[i][j] = Math.min(left, dp[i - 1][j]);
             }
         }
 
@@ -103,22 +104,24 @@ public class MinCoins {
         }
 
         int[][] dp = new int[coins.length][k + 1];
-        for (int i = 1; i < k + 1; i++) {
-            dp[0][i] = Integer.MAX_VALUE;
+        for (int j = 1; j <= k; j++) {
+            dp[0][j] = Integer.MAX_VALUE;
         }
         if (coins[0] <= k) {
             dp[0][coins[0]] = 1;
         }
 
-        for (int i = 1; i < k + 1; i++) {
-            for (int j = 1; j < coins.length; j++) {
+        for (int i = 1; i < dp.length; i ++) {
+            for (int j = 1; j < dp[0].length; j ++) {
                 int left = Integer.MAX_VALUE;
-                if (coins[j] <= i && dp[j - 1][i - coins[j]] != Integer.MAX_VALUE) {
-                    left = dp[j - 1][i - coins[j]] + 1;
+                if (coins[i] <= j && dp[i - 1][j - coins[i]] != Integer.MAX_VALUE) {
+                    left = dp[i - 1][j - coins[i]] + 1;
                 }
-                dp[j][i] = Math.min(left, dp[j - 1][i]);
+
+                dp[i][j] = Math.min(left, dp[i - 1][j]);
             }
         }
+        System.out.println(Arrays.deepToString(dp));
         return dp[coins.length - 1][k] == Integer.MAX_VALUE ? -1 : dp[coins.length - 1][k];
     }
 
@@ -151,8 +154,6 @@ public class MinCoins {
     public static void main(String[] args) {
         int[] a = {1, 2, 3};
         int k = 6;
-        System.out.println(minCoin(a, k));
-        System.out.println(minCoin2(a, k));
 
         System.out.println(minCoin3(a, k));
         System.out.println(minCoin4(a, k));

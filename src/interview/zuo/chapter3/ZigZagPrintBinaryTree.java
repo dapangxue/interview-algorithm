@@ -62,4 +62,49 @@ public class ZigZagPrintBinaryTree {
 
         return result;
     }
+
+    public List<List<Integer>> zigzagLevelOrder1(TreeNode root) {
+        List<List<Integer>> result = new ArrayList<>();
+        if (root == null) {
+            return result;
+        }
+
+        Stack<TreeNode>[] stack = new Stack[2];
+        stack[0] = new Stack();
+        stack[1] = new Stack();
+        // 确认stack的索引
+        int fix = 0;
+        stack[fix].push(root);
+
+        while (!stack[0].isEmpty() || !stack[1].isEmpty()) {
+            List<Integer> list = new ArrayList<>();
+            if ((fix & 1) == 0) {
+                while (!stack[fix].isEmpty()) {
+                    TreeNode t = stack[fix].pop();
+                    list.add(t.value);
+                    if (t.left != null) {
+                        stack[1].push(t.left);
+                    }
+                    if (t.right != null) {
+                        stack[1].push(t.right);
+                    }
+                }
+            } else {
+                while (!stack[fix].isEmpty()) {
+                    TreeNode t = stack[fix].pop();
+                    list.add(t.value);
+                    if (t.right != null) {
+                        stack[0].push(t.right);
+                    }
+                    if (t.left != null) {
+                        stack[0].push(t.left);
+                    }
+                }
+            }
+
+            result.add(list);
+            fix = fix == 0 ? 1 : 0;
+        }
+        return result;
+    }
 }

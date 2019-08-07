@@ -1,4 +1,4 @@
-package java_thread.stack_1;
+package java_thread.single_product_single_consume;
 
 /**
  * Created with IntelliJ IDEA.
@@ -8,17 +8,16 @@ package java_thread.stack_1;
  */
 public class ThreadC extends Thread {
 
-    private Consume consume;
+    private Consume c;
 
-    public ThreadC(Consume consume) {
-        this.consume = consume;
+    public ThreadC(Consume c) {
+        this.c = c;
     }
 
     @Override
     public void run() {
-        super.run();
         while (true) {
-            consume.popService();
+            c.getValue();
         }
     }
 }
