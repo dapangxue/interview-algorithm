@@ -3,6 +3,7 @@ package leetcode.chapter1;
 import netscape.security.UserTarget;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
 
@@ -49,8 +50,49 @@ public class Permute {
         }
     }
 
+    /*
+    version2 对重复数字的全排列
+     */
+
+    public List<List<Integer>> permute1(int[] nums) {
+        List<List<Integer>> result = new ArrayList<>();
+        int length = nums.length;
+        if (length == 0) {
+            return result;
+        }
+
+        int[] used = new int[length];
+        Arrays.sort(nums);
+        generatePermute1(nums, used, result, new Stack<>(), 0);
+        return result;
+    }
+
+    public void generatePermute1(int[] nums,
+                                 int[] used,
+                                 List<List<Integer>> result,
+                                 Stack<Integer> path,
+                                 int size) {
+        if (size == nums.length) {
+            result.add(new ArrayList<>(path));
+            return;
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            if (used[i] == 0) {
+                if (i > 0 && nums[i] == nums[i - 1] && used[i - 1] == 0) {
+                    continue;
+                }
+                used[i] = 1;
+                path.push(nums[i]);
+                generatePermute1(nums, used, result, path, size + 1);
+                used[i] = 0;
+                path.pop();
+            }
+        }
+    }
+
     public static void main(String[] args) {
         Permute p = new Permute();
-        System.out.println(p.permute(new int[]{1, 2, 3}));
+        System.out.println(p.permute1(new int[]{1, 1, 3}));
     }
 }
